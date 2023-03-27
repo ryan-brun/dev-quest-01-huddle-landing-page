@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+  }
+
+  .cabecalho {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .project-body {
+    flex-direction: column;
+  }
+
+  .textos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .textos h1 {
+    padding: 10px;
+  }
+
+  .textos p {
+    padding: 10px;
+  }
+
+  .textos a {
+    padding: 10px;
+  }
+
+  .social{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+}

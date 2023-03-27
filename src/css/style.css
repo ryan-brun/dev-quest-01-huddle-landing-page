@@ -1,0 +1,80 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: url("../images/bg-desktop.svg") no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.cabecalho {
+  margin: 100px;
+}
+
+.project-body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 100px 100px 0px 100px;
+}
+
+.project-body .textos {
+  padding: 40px;
+}
+
+.project-body .textos h1 {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.project-body .textos p {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.project-body .textos a {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #fff;
+  border-radius: 50px;
+  position: relative;
+  padding: 10px 30px;
+  top: 20px;
+}
+
+.project-body .textos a:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 160px;
+}
+
+.social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.social a:hover {
+  border-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  transition: 0.3s ease-in-out;
+}
